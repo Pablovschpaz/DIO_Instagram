@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+html, body{
+	height: 100%;
+	background-color: #fafafa;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.insta-wrapper{
+	height: 80vh;
+	width: 55vw;
+	display: flex;
+	align-items: top;
+	justify-content: space-between;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	width: 350px;
+	height: 100%;
+}
+
+.cont{
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	background-color: #ffffff;
+	border: 1px solid #dbdbdb;
+	width: 350px;
+	height: 380px;
+}
+
+.logoinsta{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 51px;
+	padding: 50px;
+}
+
+.logoinsta img{
+	width: 175px;
+	height: 51px;
+}
+
+.cont:last-of-type{
+	height: 100px;
+	margin-top: 10px;
+}
+
+.cont form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+form > input, button{
+	width: 258px;
+	height: 36px;
+	padding: 0 8px 0 0;
+	border-radius: 3px;
+	border: 1px solid #dbdbdb;
+	margin-bottom: 5px;
+	background-color: #fafafa;
+}
+
+input{
+	background-color: #fafafa;
+}
+
+.click{
+	color: white;
+	background-color: rgba(var(--d69,0,149,246),1);
+	border:none;
+}
+
+.ou{
+	display: flex;
+	align-items: center;
+	width: 80%;
+	height: 5px;
+	padding: 20px;
+	/*display: inline-block;
+	vertical-align: middle;*/
+	/*border:1px solid black;*/
+}
+
+.um23{
+	background-color: #dbdbdb;
+	height: 1px;
+	width: 90px;
+}
+
+.um23{
+	float: right;
+}
+
+.um23:first-of-type{
+	float: left;
+}
+
+.ou span{
+	font-family: 'Open Sans';
+	font-size: 13px;
+    line-height: 15px;
+    margin: 0 18px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+.loginfb{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 20px;
+	width: 260px;
+}
+
+.loginfb img{
+	width: 16px;
+	height: 16px; 
+	margin-right: 10px;
+}
+
+.loginfb span a{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	text-decoration: none;
+	color: #385185;
+}
+
+
+
+
