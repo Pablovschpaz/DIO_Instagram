@@ -18,10 +18,16 @@
 				</div><!--logoinsta-->
 				<form>
 					<input class="submit" type="name" name="name" placeholder="Telefone, nome de usuário ou email">
-					<input class="submit" type="password" name="password" placeholder="Senha">
+					<div id="mostocult">
+						<input id="senha" class="submit" type="password" name="password" placeholder="Senha">
+						<input type="checkbox" id="mostrar" onclick="mostrarOcultar()">
+						<label id="mostrar-ocultar" for="mostrar">Mostrar</label>
+					</div><!--mostocult-->
+					
 					<button class="click">Entrar</button>
 				</form>
-
+									
+				
 				<div class="ou">
 					<div class="um23"></div>
 							<span>OU</span>
@@ -44,7 +50,7 @@
 
 	</div><!-- insta-wrapper-->
 
-
+	<script src="./script/main.js"></script>
 
 
 </body>
